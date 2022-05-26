@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken'
 ]
-AUTH_USER_MODEL = 'userAccounts.Users'
+AUTH_USER_MODEL = 'userAccounts.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
